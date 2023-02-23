@@ -2,11 +2,11 @@
 #include<stdio.h>
 int main()
 {
-  int k=100;
-  while (k>=10)
+  int r=100;
+  while (r>=10)
     {
-      printf("%d\n",k);
-      k=k-1;
+      printf("%d ",r);
+      r=r-1;
     }
   printf("\nloop body finished");
   return 0;
